@@ -6,7 +6,7 @@ from pytest import raises, approx
 
 def test():
     import two_point_hospital
-    pass
+    from two_point_hospital.docs import doc_data
 
 
 if __name__ == "__main__":

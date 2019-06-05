@@ -3,6 +3,13 @@
 员工培训
 ==============================================================================
 
+.. contents:: 员工技能
+    :depth: 2
+    :local:
+
+员工培训介绍
+------------------------------------------------------------------------------
+
 **什么是培训**:
 
 游戏中可以建造 ``培训室``, 然后只要给里面配置 ``教师`` 和 ``学员``, 就可以教会你的 ``员工技能`` 了. 注意, 培训无法直接提升员工等级, 员工等级只有在工作中才能提升. 不过有时员工工作经验够了, 需要在最后给予培训才能升级.
@@ -34,9 +41,12 @@
 - 购买 ``百科全书书架``, 1 个增加 4% 的培训速度. 如果你建一个超大的房间, 放 25 个书架, 就相当于所有的教师都有 ``培训`` 技能, 以及有 ``老师`` 性格 同时加成的效果了. 也就是培训时间减半.
 
 
-.. contents:: 员工技能
-    :depth: 2
-    :local:
+所有技能一览表
+------------------------------------------------------------------------------
+
+.. jinja:: doc_data
+
+    {{ doc_data.lt_staff_skill.render() }}
 
 
 医生技能
@@ -175,9 +185,9 @@
 - 培训时间: 240 / 300 / 360 / 420 / 480
 
 
-.. _诊断:
+.. _治疗:
 
-诊断
+治疗
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ./images/Treatment-QIcon.png
@@ -211,7 +221,7 @@
 .. image:: ./images/Marketing-QIcon.png
 
 - 最高等级: 5
-- 加成效果: 1 级允许进入营销室, 2 级开始每级 +20% 手术技能
+- 加成效果: 1 级允许进入营销室, 2 级开始每级 +20% 营销速度
 - 培训时间: 240 / 300 / 360 / 420 / 480
 
 
@@ -255,13 +265,13 @@
 - 培训时间: 240
 
 
-所有员工通用技能
+员工通用技能
 ------------------------------------------------------------------------------
 
 
 .. _临床交流:
 
-临床交流
+临床交流 (只有医生和护士能学)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ./images/Bedside-Manner-QIcon.png
@@ -307,9 +317,9 @@
 - 培训时间: 240
 
 
-.. _培训:
+.. _培训达人班:
 
-培训
+培训达人班
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ./images/Training-Masterclass-QIcon.png
@@ -320,9 +330,272 @@
 
 
 
+各个房间的员工最佳技能一览表
+------------------------------------------------------------------------------
+
+注, 以下所有技能都可以将其中的最后一个换成:
+
+1. 对于全科, 和病房, 可以考虑将其中一个换成
+
+    .. image:: ./images/Stamina-Training-QIcon.png
+
+2. 对于全科, 可以考虑将其中一个换成
+
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+
+**诊断室**:
+
+- 全科医生办公室:
+
+    .. image:: ./images/General-Practice-QIcon.png
+    .. image:: ./images/General-Practice-QIcon.png
+    .. image:: ./images/General-Practice-QIcon.png
+    .. image:: ./images/General-Practice-QIcon.png
+    .. image:: ./images/General-Practice-QIcon.png
+
+- 综合诊断室:
+
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+
+- 心脏病科:
+
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+
+- 体液分析:
 
 
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
 
+- X光室:
+
+    .. image:: ./images/Radiology-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+
+- 超级磁力强效共振扫描室:
+
+    .. image:: ./images/Radiology-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+
+**治疗室**:
+
+- 药房:
+
+    .. image:: ./images/Pharmacy-Management-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 脱光诊所:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 流行锅实验室:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 小丑诊所:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 色疗室:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 骨科病房:
+
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+
+- 注射室:
+
+    .. image:: ./images/Injection-Administration-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 有害动物防治:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 手术室:
+
+    .. image:: ./images/Surgery-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 拔头室:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 电疗室:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 分辨率实验室:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 破伊学:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+- 折疗室:
+
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+**诊断和治疗**:
+
+- 病房:
+
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Ward-Management-QIcon.png
+
+- 精神病室:
+
+    .. image:: ./images/Psychiatry-QIcon.png
+    .. image:: ./images/Psychiatry-QIcon.png
+    .. image:: ./images/Psychiatry-QIcon.png
+    .. image:: ./images/Psychiatry-QIcon.png
+    .. image:: ./images/Psychiatry-QIcon.png
+
+- DNA实验室:
+
+    .. image:: ./images/Genetics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Treatment-QIcon.png
+
+**设施**:
+
+- 接待处:
+
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+
+- 员工休息室: 无
+- 厕所: 无
+- 培训室: 无
+- 研究室:
+
+    .. image:: ./images/Research-QIcon.png
+    .. image:: ./images/Research-QIcon.png
+    .. image:: ./images/Research-QIcon.png
+    .. image:: ./images/Research-QIcon.png
+    .. image:: ./images/Research-QIcon.png
+
+- 营销室:
+
+    .. image:: ./images/Marketing-QIcon.png
+    .. image:: ./images/Marketing-QIcon.png
+    .. image:: ./images/Marketing-QIcon.png
+    .. image:: ./images/Marketing-QIcon.png
+    .. image:: ./images/Marketing-QIcon.png
+
+- 咖啡厅:
+
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Customer-Service-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+
+
+清洁工:
+
+- 维修清洁工:
+
+    .. image:: ./images/Maintenance-QIcon.png
+    .. image:: ./images/Maintenance-QIcon.png
+    .. image:: ./images/Maintenance-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+
+- 升级清洁工:
+
+    .. image:: ./images/Mechanics-QIcon.png
+    .. image:: ./images/Mechanics-QIcon.png
+    .. image:: ./images/Mechanics-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+
+- 捉鬼清洁工:
+
+    .. image:: ./images/Ghost-Capture-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
 
 
 参考资料:
