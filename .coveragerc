@@ -2,12 +2,12 @@
 # for more info: https://coverage.readthedocs.io/en/latest/config.html
 [run]
 omit =
-    two_point_hostpital/_version.py
-    two_point_hostpital/cli.py
-    two_point_hostpital/pkg/*
-    two_point_hostpital/docs/*
-    two_point_hostpital/tests/*
-    two_point_hostpital/handlers/*
+    two_point_hospital/_version.py
+    two_point_hospital/cli.py
+    two_point_hospital/pkg/*
+    two_point_hospital/docs/*
+    two_point_hospital/tests/*
+    two_point_hospital/handlers/*
 
 [report]
 # Regexes for lines to exclude from consideration

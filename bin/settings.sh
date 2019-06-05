@@ -8,11 +8,11 @@
 
 # GitHub
 github_account="MacHu-GWU"
-github_repo_name="two_point_hostpital-project"
+github_repo_name="two_point_hospital-project"
 
 
 # Python
-package_name="two_point_hostpital"
+package_name="two_point_hospital"
 py_ver_major="3"
 py_ver_minor="6"
 py_ver_micro="2"
@@ -21,6 +21,6 @@ supported_py_versions="3.6.2" # e.g: "2.7.13 3.6.2"
 
 
 #--- Doc Build
-rtd_project_name="two_point_hostpital"
+rtd_project_name="two_point_hospital"
 
 

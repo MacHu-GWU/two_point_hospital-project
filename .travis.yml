@@ -9,7 +9,7 @@ install:
   - pip install codecov # Install coveralls
 
 script:
-  - pytest tests --cov=two_point_hostpital # Run unittest
+  - pytest tests --cov=two_point_hospital # Run unittest
 
 notifications:
   email: false # Mute email notification

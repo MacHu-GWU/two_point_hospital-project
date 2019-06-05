@@ -1,6 +1,6 @@
 
-.. image:: https://readthedocs.org/projects/two_point_hostpital/badge/?version=latest
-    :target: https://two_point_hostpital.readthedocs.io/index.html
+.. image:: https://readthedocs.org/projects/two_point_hospital/badge/?version=latest
+    :target: https://two_point_hospital.readthedocs.io/index.html
     :alt: Documentation Status
 
 .. image:: https://img.shields.io/badge/STAR_Me_on_GitHub!--None.svg?style=social

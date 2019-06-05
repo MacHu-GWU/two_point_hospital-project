@@ -13,7 +13,7 @@ from datetime import date
 from setuptools import setup, find_packages
 
 # --- import your package ---
-import two_point_hostpital as package
+import two_point_hospital as package
 
 if __name__ == "__main__":
     # --- Automatically generate setup parameters ---

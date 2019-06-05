@@ -5,7 +5,7 @@ from pytest import raises, approx
 
 
 def test():
-    import two_point_hostpital
+    import two_point_hospital
     pass
 
 

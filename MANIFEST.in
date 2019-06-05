@@ -5,6 +5,6 @@
 
 include *.txt
 include *.rst
-recursive-include two_point_hostpital *.*
+recursive-include two_point_hospital *.*
 recursive-exclude *.pyc
 recursive-exclude *.pyo
