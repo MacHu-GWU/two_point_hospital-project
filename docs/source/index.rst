@@ -8,12 +8,4 @@ Table of Content
 ------------------------------------------------------------------------------
 
 .. autotoctree::
-
-.. include:: ../../AUTHORS.rst
-
-
-API Document
-------------------------------------------------------------------------------
-
-* :ref:`by Name <genindex>`
-* :ref:`by Structure <modindex>`
+    :maxdepth: 1
