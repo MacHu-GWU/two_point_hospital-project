@@ -598,6 +598,9 @@
     .. image:: ./images/Emotional-Intelligence-QIcon.png
 
 
+终极医院需要的员工统计
+------------------------------------------------------------------------------
+
 参考资料:
 
 - https://two-point-hospital.fandom.com/wiki/Staff_Training
