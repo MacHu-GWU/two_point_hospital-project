@@ -333,6 +333,12 @@
 各个房间的员工最佳技能一览表
 ------------------------------------------------------------------------------
 
+要注意的几点:
+
+1. 诊断类型的房间 诊断技能不会溢出. 详情请参考 :ref:`诊断率`.
+2. 治疗类型的房间 员工治疗技能很可能溢出. 因为有一个乘法系数是取 min(100%, 房间 + 员工加成), 房间加成里如果有治疗仪器, 仪器本身就提供了 50%, 5级员工的治疗本身就是 50%, 已经 100% 了. **换言之对于任何有机器的房间, 即使白板员工也已经能达到治疗的极限了) 详情请参考 :ref:`治疗率`.
+3. 本表格只考虑 满级机器升级 以及 5级员工 的情况. 员工每降低一级则减少 10% 的治疗与诊断
+
 注, 以下所有技能都可以将其中的最后一个换成:
 
 1. 对于全科, 和病房, 可以考虑将其中一个换成
@@ -399,124 +405,121 @@
 - 药房:
 
     .. image:: ./images/Pharmacy-Management-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
-- 脱光诊所:
+- 注射室:
 
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-
-- 流行锅实验室:
-
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-
-- 小丑诊所:
-
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-
-- 色疗室:
-
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Injection-Administration-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 - 骨科病房:
 
     .. image:: ./images/Ward-Management-QIcon.png
     .. image:: ./images/Ward-Management-QIcon.png
     .. image:: ./images/Ward-Management-QIcon.png
-    .. image:: ./images/Ward-Management-QIcon.png
-    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
 
-- 注射室:
+- 手术室, 医生:
 
-    .. image:: ./images/Injection-Administration-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Surgery-QIcon.png
+    .. image:: ./images/Surgery-QIcon.png
+    .. image:: ./images/Surgery-QIcon.png
+    .. image:: ./images/Surgery-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+
+- 手术室, 护士: 手术室护士的技能对于治愈率完全没有影响, 只有医生的技能才算数.
+
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
+
+- 脱光诊所:
+
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
+
+- 流行锅实验室:
+
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
+
+- 小丑诊所:
+
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
+
+- 色疗室:
+
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 - 有害动物防治:
 
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-
-- 手术室:
-
-    .. image:: ./images/Surgery-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 - 拔头室:
 
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 - 电疗室:
 
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 - 分辨率实验室:
 
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 - 破伊学:
 
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 - 折疗室:
 
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
+    .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Bedside-Manner-QIcon.png
 
 **诊断和治疗**:
 
-- 病房:
+- 病房: 病房在后期可以关闭诊断功能, 因为在有 心脏病科, 体液分析, X 光机, 核磁共振, 的情况下任何疾病病房都不会是最佳.
 
     .. image:: ./images/Ward-Management-QIcon.png
     .. image:: ./images/Ward-Management-QIcon.png
     .. image:: ./images/Ward-Management-QIcon.png
-    .. image:: ./images/Ward-Management-QIcon.png
-    .. image:: ./images/Ward-Management-QIcon.png
+    .. image:: ./images/Stamina-Training-QIcon.png
+    .. image:: ./images/Motivation-QIcon.png
 
 - 精神病室:
 
@@ -531,8 +534,8 @@
     .. image:: ./images/Genetics-QIcon.png
     .. image:: ./images/Diagnostics-QIcon.png
     .. image:: ./images/Diagnostics-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
-    .. image:: ./images/Treatment-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
+    .. image:: ./images/Diagnostics-QIcon.png
 
 **设施**:
 
@@ -596,6 +599,7 @@
     .. image:: ./images/Motivation-QIcon.png
     .. image:: ./images/Stamina-Training-QIcon.png
     .. image:: ./images/Emotional-Intelligence-QIcon.png
+    .. image:: ./images/Maintenance-QIcon.png
 
 
 终极医院需要的员工统计
