@@ -11,13 +11,13 @@ NexusMods (https://www.nexusmods.com/) 是一个国外的著名的 Mod 网站, �
 
 你可以在 https://www.nexusmods.com/twopointhospital 这里找到所有于 双点医院 有关的 Mod. 其中我极力推荐下面几个 Mod:
 
-- Qualification Utils
+- **Qualification Utils**
     - Info: 可以编辑员工的 技能, 属性, 逆天级别的 Mod
     - Link: https://www.nexusmods.com/twopointhospital/mods/10
 - Inspection HotKeys
     - Info: 可以为一些操作自定义快捷键, 例如送病人去治疗, 晋升雇员等
     - Link: https://www.nexusmods.com/twopointhospital/mods/13
-- Repeat Research
+- **Repeat Research**
     - Info: 自动不停的继续研究
     - Link: https://www.nexusmods.com/twopointhospital/mods/7
 - Advanced Queues
@@ -26,3 +26,21 @@ NexusMods (https://www.nexusmods.com/) 是一个国外的著名的 Mod 网站, �
 - Climate Control
     - Info: 允许你控制气候 (温度)
     - Link: https://www.nexusmods.com/twopointhospital/mods/27
+- More in Patient
+    - Info: 提高病人上限 500, 以及一些让清洁工能更智能的维修等功能
+    - Link: https://www.nexusmods.com/twopointhospital/mods/15
+- Repeat Marketing
+    - Info: 自动不停的市场营销
+    - Link: https://www.nexusmods.com/twopointhospital/mods/16
+- **Unlimited Room Size**:
+    - Info: 允许你造比各个房间最小限制更小的房间, 只要你放得下
+    - Link: https://www.nexusmods.com/twopointhospital/mods/6
+- **More Speed Mode**:
+    - Info: 允许你调整游戏速度比默认最快的还要快
+    - Link: https://www.nexusmods.com/twopointhospital/mods/1
+- **Job Assignment Helper**:
+    - Info: 优化了设置允许员工在哪些科室工作的 UI, 更加方便
+    - Link: https://www.nexusmods.com/twopointhospital/mods/3
+- **Chinese Search**:
+    - Info: 允许你用拼音来搜索房间
+    - Link: https://www.nexusmods.com/twopointhospital/mods/26
